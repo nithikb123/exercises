@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style>
+            .btn{
+                width: 100px;
+                height: 50px;
+                line-height: 50px;
+                text-align:center;
+                border: 1px solid black;
+                transition: 2s,height 3s,line-height 3s;
+                animation-name:example;
+                animation-duration:5s;
+                animation-iteration-count: infinite;
+            }
+            .btn:hover{
+                width:200px ;
+                height:100px ;
+                line-height:100px ;
+            }
+            @keyframes example{
+                from{ background-color: blueviolet;}
+                to{background-color: blue;}
+            }
+        </style>
+        <link href="css\samplescss.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div  class="btn">submit</div>
+        <div class="div-border">nithu</div>
+    </body>
